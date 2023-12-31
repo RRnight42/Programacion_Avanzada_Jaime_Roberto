@@ -1,0 +1,37 @@
+﻿  Camera.cpp
+  Cube.cpp
+  Cuboid.cpp
+  Cylinder.cpp
+  Game.cpp
+C:\Users\rober\OneDrive\Escritorio\Apuntes clase\Practicas\Practica_03_Programacion\Practica_03_Programacion\Scene.h(32,114): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\rober\OneDrive\Escritorio\Apuntes clase\Practicas\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(58,32): warning C4244: 'argumento': conversión de 'const double' a 'const float'; posible pérdida de datos
+C:\Users\rober\OneDrive\Escritorio\Apuntes clase\Practicas\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(59,47): warning C4244: '=': conversión de '_Rep' a 'long'; posible pérdida de datos
+          with
+          [
+              _Rep=__int64
+          ]
+  MaterialModel.cpp
+  MaterialModelLoader.cpp
+C:\Users\rober\OneDrive\Escritorio\Apuntes clase\Practicas\Practica_03_Programacion\Practica_03_Programacion\MaterialModelLoader.cpp(108,14): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\rober\OneDrive\Escritorio\Apuntes clase\Practicas\Practica_03_Programacion\Practica_03_Programacion\MaterialModelLoader.cpp(107,34): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+  MaterialTriangle.cpp
+  MenuScene.cpp
+C:\Users\rober\OneDrive\Escritorio\Apuntes clase\Practicas\Practica_03_Programacion\Practica_03_Programacion\Scene.h(32,114): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  Model.cpp
+  ModelLoader.cpp
+C:\Users\rober\OneDrive\Escritorio\Apuntes clase\Practicas\Practica_03_Programacion\Practica_03_Programacion\ModelLoader.cpp(88,31): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\rober\OneDrive\Escritorio\Apuntes clase\Practicas\Practica_03_Programacion\Practica_03_Programacion\ModelLoader.cpp(87,31): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\rober\OneDrive\Escritorio\Apuntes clase\Practicas\Practica_03_Programacion\Practica_03_Programacion\ModelLoader.cpp(86,34): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+  Practica_03_Programacion.cpp
+C:\Users\rober\OneDrive\Escritorio\Apuntes clase\Practicas\Practica_03_Programacion\Practica_03_Programacion\Scene.h(32,114): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  Scene.cpp
+C:\Users\rober\OneDrive\Escritorio\Apuntes clase\Practicas\Practica_03_Programacion\Practica_03_Programacion\Scene.h(32,114): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  Solid.cpp
+  Sphere.cpp
+  Teapot.cpp
+C:\Users\rober\OneDrive\Escritorio\Apuntes clase\Practicas\Practica_03_Programacion\Practica_03_Programacion\Teapot.h(16,132): warning C4305: 'inicializando': truncamiento de 'double' a 'float'
+  Text.cpp
+  Toroid.cpp
+  Triangle.cpp
+  Generando código...
+  Practica_03_Programacion.vcxproj -> C:\Users\rober\OneDrive\Escritorio\Apuntes clase\Practicas\Practica_03_Programacion\x64\Debug\Practica_03_Programacion.exe
