@@ -8,7 +8,7 @@ class MenuScene : public Scene
 private:
 
 
-
+	// meteor impact
 public : 
 
 	MenuScene() : Scene() {}
