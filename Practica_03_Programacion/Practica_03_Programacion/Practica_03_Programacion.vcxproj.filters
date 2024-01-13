@@ -90,9 +90,6 @@
     <ClCompile Include="Triangle.cpp">
       <Filter>Archivos de origen\Modelos</Filter>
     </ClCompile>
-    <ClCompile Include="MenuScene.cpp">
-      <Filter>Archivos de origen\Escenas</Filter>
-    </ClCompile>
     <ClCompile Include="Scene.cpp">
       <Filter>Archivos de origen\Escenas</Filter>
     </ClCompile>
@@ -147,9 +144,6 @@
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
     <ClInclude Include="Material.h">
-      <Filter>Archivos de encabezado</Filter>
-    </ClInclude>
-    <ClInclude Include="MenuScene.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
     <ClInclude Include="Text.h">

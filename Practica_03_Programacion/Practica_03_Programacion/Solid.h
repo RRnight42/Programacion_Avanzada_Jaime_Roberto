@@ -16,7 +16,7 @@ private:
 	Vector3D speed;
 	bool transparent;
 	bool UseGravity;
-
+	string tag;
 public:
 
 	Solid(Vector3D position = Vector3D(0,0,0) ,
@@ -25,12 +25,16 @@ public:
 		  Vector3D rotationSpeed = Vector3D(0,0,0), 
 		  Vector3D speed = Vector3D(0,0,0) , 
 		  bool transparent = false , 
-		  bool gravity = false) : position(position),
-		color(color),
-		rotation(rotation), 
-		rotationSpeed(rotationSpeed), 
-		speed(speed), 
-		transparent(false) {}
+		  bool gravity = false ,
+		  string tag = "Untagged") : 
+		  position(position),
+		  color(color),
+		  rotation(rotation), 
+		  rotationSpeed(rotationSpeed), 
+		  speed(speed), 
+		  transparent(transparent),
+		  UseGravity(gravity),
+	      tag(tag){}
 	
 
 
@@ -42,6 +46,7 @@ public:
 	inline Vector3D GetSpeed() { return this->speed; }
 	inline const bool& GetTransparent() { return transparent; }
 	inline const bool& GetGravity() { return UseGravity; }
+	inline const string& GetTag() { return tag; }
 
 	inline void SetColor(const Color& ColorToSet) { color = Color(ColorToSet); }
 	inline void SetPosition(const Vector3D& PositionToSet) { position = Vector3D(PositionToSet); }
@@ -50,7 +55,7 @@ public:
 	inline void SetSpeed(const Vector3D& SpeedToSet) { speed = Vector3D(SpeedToSet); }
 	inline void SetTransparent(const bool TransparentToSet) { transparent = TransparentToSet; }
 	inline void SetGravity(const bool GravityToSet) { UseGravity = GravityToSet; }
-
+	inline void SetTag(const string tagToSet) { tag = tagToSet; }
 	bool CheckColission(Solid* other);
 
 	//friend ostream& operator<<(ostream& o, const Vector3D v);

@@ -9,7 +9,7 @@ class MaterialModel : public Solid
 private:
 
 	vector<MaterialTriangle> triangles;
-
+	
 
 
 public:

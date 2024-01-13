@@ -19,14 +19,19 @@ private:
 	Scene* activeScene;	
 	vector<Scene*> scenes;
 
+	int eliminatedAsteroids;
+	int lives;
+
 //	Vector3D gravity = Vector3D(0, 0, 9.8);
 
 
 public:
 
-	Game() : activeScene(nullptr) , 
-		     initialMilliseconds(duration_cast<milliseconds>(system_clock ::now().time_since_epoch())),
-	         lastUpdatedTime(0){}
+	Game(int eliminatedAsteroids = 0 , int lives = 3) : activeScene(nullptr) , 
+		                                                eliminatedAsteroids(eliminatedAsteroids), 
+		                                                lives(lives),
+		                                                initialMilliseconds(duration_cast<milliseconds>(system_clock ::now().time_since_epoch())),
+	                                                    lastUpdatedTime(0){}
 
 	void Init();
 	void Render();
@@ -34,4 +39,10 @@ public:
 	void ProcessKeyPressed(unsigned char key, int px, int py);
 	void ProcessMouseMovement(int x, int y);
 	void ProcessMouseClick(int button, int state, int x, int y);
+	bool IsOver();
+	bool Death();
+	bool ShipLeaving();
+
+	//void DestroyAsteroids();
+	void LoseLive();
 };
