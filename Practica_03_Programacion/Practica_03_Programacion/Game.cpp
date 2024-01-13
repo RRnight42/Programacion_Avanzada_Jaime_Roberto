@@ -50,7 +50,13 @@ void Game::ProcessKeyPressed(unsigned char key, int px, int py) {
 }
 
 void Game::ProcessMouseMovement(int x, int y) { cout << "Mouse movement" << x << " , " << y << endl; }
-void Game::ProcessMouseClick(int button, int state, int x, int y) {}
+void Game::ProcessMouseClick(int button, int state, int x, int y) 
+{
+	if (activeScene == scenes.at(0)) 
+	{
+		this->activeScene=scenes.at(1);
+	}
+}
 
 void Game::Init() {
 
