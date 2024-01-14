@@ -50,7 +50,20 @@ void Game::ProcessKeyPressed(unsigned char key, int px, int py) {
 }
 
 void Game::ProcessMouseMovement(int x, int y) { cout << "Mouse movement" << x << " , " << y << endl; }
-void Game::ProcessMouseClick(int button, int state, int x, int y) {}
+void Game::ProcessMouseClick(int button, int state, int x, int y) {
+
+	if (activeScene == scenes.at(0)) {
+	
+	
+	
+		this->activeScene = scenes.at(1);
+	
+	
+	}
+
+
+
+}
 
 void Game::Init() {
 
@@ -64,7 +77,7 @@ void Game::Init() {
 	this->scenes.push_back(winScene);
 	this->scenes.push_back(loseScene);
 
-	this->activeScene = loseScene;
+	this->activeScene = gameScene;
 
 	MaterialModelLoader* loader = new MaterialModelLoader();
 
@@ -109,7 +122,7 @@ void Game::Init() {
 	Text* score = new Text("Asteroides destruidos :" + eliminatedAsteroids);
 	Text* remainingLives = new Text("Vidas restantes : " + lives);
 	score->SetPosition(Vector3D(-0.7, 0.5, -1));
-	score->SetPosition(Vector3D(-0.7, 0.5, -1));
+	remainingLives->SetPosition(Vector3D(0.5, 0.4, -1));
 	gameScene->AddGameObject(score);
 	gameScene->AddGameObject(remainingLives);
 
@@ -121,9 +134,10 @@ void Game::Init() {
 		MaterialModel* asteroid = new MaterialModel();
 		*asteroid = loader3->GetMaterialModel();
 		asteroid->SetTag("asteroid");
-		asteroid->SetRotation(Vector3D());
-		asteroid->SetRotationSpeed(Vector3D());
-		asteroid->SetPosition(Vector3D(getRand(-20, 20), getRand(0, 40), -60));
+		asteroid->SetRotation(Vector3D(90 , 0 ,0));
+		asteroid->SetRotationSpeed(Vector3D(0 , getRand(-0.4, 0.4) , 0));
+		asteroid->SetSpeed(	Vector3D(0 , getRand(-0.1, -0.3) , 0));
+		asteroid->SetPosition(Vector3D(getRand(-30, 30), getRand(40, 80), -60));
 		gameScene->AddGameObject(asteroid);
 
 	}
@@ -242,8 +256,9 @@ void Game::LoseLive() {
 				if (activeScene->GetGameObjects().at(0)->CheckColission(activeScene->GetGameObjects().at(i))) {
 				
 					lives -= 1;
+					delete activeScene->GetGameObjects().at(i);
 					activeScene->GetGameObjects().erase(activeScene->GetGameObjects().begin() + i);
-				
+					
 				}
 			}
 		}
@@ -252,7 +267,45 @@ void Game::LoseLive() {
 
 }
 
+
+void Game::ResetAsteroids() {
+
+
+	for (int i = 0; i < scenes.at(1)->GetGameObjects().size(); i++) {
+	
+	
+		if (scenes.at(1)->GetGameObjects().at(i)) {
+		
+		
+		
+		
+		
+		}
+	
+	
+	}
+
+
+
+}
+
+
+void Game::DestroyAsteroids() {
+
+
+
+
+
+
+
+
+
+}
+
 void Game::Update() {
+
+	LoseLive();
+
 
 	if (ShipLeaving()) {
 	
@@ -261,7 +314,7 @@ void Game::Update() {
 		}
 	}
 
-
+	
 
 	if (IsOver()) {
 	

@@ -43,6 +43,7 @@ public:
 	bool Death();
 	bool ShipLeaving();
 
-	//void DestroyAsteroids();
+	void DestroyAsteroids();
 	void LoseLive();
+	void ResetAsteroids();
 };
