@@ -3,34 +3,33 @@ C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_
 C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(21,130): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
 C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(29,21): warning C4305: 'argumento': truncamiento de 'double' a 'const float'
 C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(33,34): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(87,19): warning C4305: 'argumento': truncamiento de 'double' a 'const float'
-C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(91,48): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(100,37): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(100,31): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(101,44): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(101,38): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(102,37): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(102,31): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(124,31): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(138,50): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(139,43): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(140,59): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(140,41): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(149,21): warning C4305: 'argumento': truncamiento de 'double' a 'const float'
-C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(158,32): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(159,38): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(159,34): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(160,41): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(160,35): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(175,21): warning C4305: 'argumento': truncamiento de 'double' a 'const float'
-C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(188,50): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(189,50): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(190,50): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
-C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(300,32): warning C4244: 'argumento': conversión de 'const double' a 'const float'; posible pérdida de datos
-C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(301,47): warning C4244: '=': conversión de '_Rep' a 'long'; posible pérdida de datos
+C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(74,19): warning C4305: 'argumento': truncamiento de 'double' a 'const float'
+C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(78,48): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(87,37): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(87,31): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(88,44): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(88,38): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(89,37): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(89,31): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(111,31): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(112,31): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(126,59): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(126,41): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(135,21): warning C4305: 'argumento': truncamiento de 'double' a 'const float'
+C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(144,32): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(145,38): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(145,34): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(146,41): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(146,35): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(161,21): warning C4305: 'argumento': truncamiento de 'double' a 'const float'
+C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(174,50): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(175,50): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(176,50): warning C4244: 'argumento': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(282,32): warning C4244: 'argumento': conversión de 'const double' a 'const float'; posible pérdida de datos
+C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(283,47): warning C4244: '=': conversión de '_Rep' a 'long'; posible pérdida de datos
           with
           [
               _Rep=__int64
           ]
-C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(234): warning C4715: 'Game::ShipLeaving': no todas las rutas de acceso de control devuelven un valor
+C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\Practica_03_Programacion\Game.cpp(220): warning C4715: 'Game::ShipLeaving': no todas las rutas de acceso de control devuelven un valor
   Practica_03_Programacion.vcxproj -> C:\Users\rober\OneDrive\Escritorio\Path PA\Practica_03_Programacion\x64\Debug\Practica_03_Programacion.exe
